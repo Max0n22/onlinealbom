@@ -1,0 +1,66 @@
+@charset "UTF-8";
+.nav__home a:hover {
+  color: #8b620a;
+}
+
+.nav__classmates a:hover,
+.nav__photos a:hover,
+.contact a:hover {
+  color: rgb(185, 185, 185);
+}
+
+.card {
+  width: 600px;
+  height: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.teacher_photo {
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.teacher_photo img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease; /* Додали анімацію для плавного переходу */
+  -webkit-animation: pulse 1s infinite alternate;
+          animation: pulse 1s infinite alternate; /* Додаємо анімацію "пульсації" */
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+/* Адаптація для мобільних пристроїв */
+@media (max-width: 600px) {
+  .card {
+    width: 100vw; /* Змінюємо ширину на весь видимий екран на мобільних пристроях */
+  }
+}

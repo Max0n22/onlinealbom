@@ -1,0 +1,126 @@
+@media (max-width: 1254px) {
+    .wellcome_page {
+        background-image: none;
+        background-color: #2a2a2a;
+    }
+}
+// На ноутбукахL(з великим екраном) зникають боков фото бо для них занадто мало мія
+@media (max-width: 1550px) {
+    .right-img {
+        display: none;
+    }
+    .left-img {
+        display: none;
+    }
+}
+// Зменщення всього контенту в 2 рази на планшетах в момент коли напис "ВИПУСКОМ" починає налазити на фон "аркуш"
+@media (max-width: 830px) {
+    .nav {
+        scale: 0.5;
+    }
+    .main-text__1 {
+        font-size: 0.7813rem;
+    }
+    .main-text__2 {
+        font-size: 3.5rem;
+    }
+    .time-plase__time {
+        font-size: 2.8125rem;
+    }
+    .time-plase__plase {
+        font-size: 0.7813rem;
+    }
+    .border {
+        width: 21.5625rem;
+    }
+
+    .person-card__photo {
+        // margin: 0 auto;
+    }
+    .person-card {
+        flex-direction: column;
+    }
+
+    .name {
+        margin: 0 auto;
+        margin-top: 1.875rem;
+    }
+
+    .quote {
+        padding-top: 1.875rem;
+        margin: 0 auto;
+    }
+
+    .social-media {
+        padding-left: 20px;
+        width: max-content;
+        padding-top: 3.125rem;
+        margin: 0 auto;
+    }
+
+    .quote {
+        font-size: 20px;
+    }
+
+    // зміна розміру та розташування фото узня та вчителя на планшетах/телефонах
+    .teacher_photo {
+        width: 100vw;
+        height: calc(100vh - -150px);
+    }
+
+    .Wishes {
+        font-size: 20px;
+        margin: 0 auto;
+        padding: 0px 30px 0px 30px;
+    }
+    .quote {
+        margin: 0 auto;
+        padding: 40px 10px 0px 10px;
+    }
+
+    .card {
+        width: 100vw;
+    }
+
+    .teacher_photo img {
+        width: 100vw;
+    }
+}
+
+// Здвиг надпису "Час привітати вас" до початку напису "ВИПУСКОМ" в момент коли він починає вилазити за межі екрану
+@media (max-width: 688px) {
+    .main-text__1 {
+        position: relative;
+        left: 123px;
+    }
+    .person-card__photo {
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media (max-width: 430px) {
+    .main-text__1 {
+        font-size: 9px;
+        left: 160px;
+    }
+    .main-text__2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .time-plase__time {
+        font-size: 35px;
+    }
+    .border {
+        width: 300px;
+    }
+
+    .person-card__photo {
+        scale: 0.9;
+    }
+
+    .quote {
+        margin-left: 10px;
+    }
+}

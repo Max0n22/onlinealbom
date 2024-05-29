@@ -1,0 +1,330 @@
+@charset "UTF-8";
+@import url("https://db.onlinewebfonts.com/c/2d2279d35d35bd367ff45992a1a42351?family=LearningCurvePro");
+@import url("https://db.onlinewebfonts.com/c/a1caa95569aad7c1dd438b6b57c41c3d?family=GreycliffCF-ExtraBold");
+@import url("https://db.onlinewebfonts.com/c/2a61d83e6af5b73f8f7751643f767325?family=GreycliffCF-DemiBold");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+body {
+  height: 250rem;
+  background-color: #2a2a2a;
+}
+
+footer {
+  height: 100px;
+  background-color: #707070;
+}
+
+.wellcome_page {
+  height: 100vh;
+  min-height: 56.25rem;
+  background-image: url(/img/head/docorations/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+header {
+  height: 18.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.head-wraper {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: white;
+  font-family: "GreycliffCF-DemiBold";
+}
+
+.nav {
+  padding-left: 4.375rem;
+  padding-right: 4.375rem;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 0 0 3.125rem 3.125rem;
+  border: 0.25rem solid #ac7c16;
+  border-top: none;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nav__home a {
+  color: #ac7c16;
+  padding: 0px 3.125rem 0px 0px;
+}
+.nav__classmates a {
+  padding: 0px 3.125rem 0px 0px;
+}
+.nav__photos a {
+  padding: 0px 3.125rem 0px 0px;
+}
+
+.text-home {
+  color: #ac7c16;
+}
+
+.main-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-text__1 {
+  margin-right: 33.3125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ac7c16;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: left;
+}
+.main-text__2 {
+  margin-bottom: 3.75rem;
+  font-family: "Montserrat", sans-serif;
+  margin-right: -30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  color: #fefefe;
+  font-size: 6.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.time-plase {
+  margin-top: 1 35px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.time-plase__time {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  letter-spacing: 0.1613rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 5.625rem;
+}
+.time-plase__plase {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  /* Style for "At UKL Col" */
+  width: 749px;
+  height: 3.6875rem;
+  color: #ac7c16;
+  font-family: "GreycliffCF-DemiBold";
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.border {
+  position: relative;
+  margin-top: -4.375rem;
+  width: 43.125rem;
+  height: 7.625rem;
+}
+
+.left-head-photo {
+  width: 33.75rem;
+  position: relative;
+  top: -31.25rem;
+  left: 0rem;
+}
+
+.right-head-photo {
+  width: 33.75rem;
+  position: relative;
+  top: -18.75rem;
+  left: 53.125rem;
+}
+
+.left-img {
+  position: absolute;
+  display: inline-block;
+  width: 33.75rem;
+}
+
+.head-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left-img-img {
+  width: 33.75rem;
+}
+
+.right-img-img {
+  width: 33.75rem;
+}
+
+.right-img {
+  right: -1.875rem;
+  position: absolute;
+  display: inline-block;
+  width: 33.75rem;
+}
+
+.d_ear {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: fixed;
+  right: -9.375rem;
+  top: -3.125rem;
+  scale: 0.5;
+}
+
+.i_ear {
+  position: relative;
+}
+
+.teacher_photo {
+  width: 600px;
+  height: 100vh;
+  border-radius: 15px;
+  overflow: hidden;
+  -webkit-perspective: 1000px;
+          perspective: 1000px; /* Перспектива для анімації */
+  position: relative;
+}
+
+.teacher_photo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.9375rem;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden; /* Щоб уникнути мерехтіння під час анімації */
+  -webkit-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.Wishes {
+  max-width: 900px;
+  font-size: 2rem;
+  margin-top: 1.25rem;
+  color: #ffffff;
+}
+
+.classmates-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #fefefe;
+  margin: 0 auto;
+  margin-top: 4.375rem;
+}
+
+.person-card {
+  margin-top: 3.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.person-card__photo {
+  height: 100vh;
+  width: 434.53px;
+}
+
+.about-person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.name {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 2.5rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  color: #eb9617;
+  margin-left: 3.75rem;
+}
+
+.quote {
+  color: #ffffff;
+  font-size: 30px;
+  max-width: 90vw;
+  margin-left: 60px;
+  margin-top: 3.75rem;
+}
+
+.social-media {
+  margin-top: 2.5rem;
+  margin-left: 3.75rem;
+}
+
+.icon {
+  width: 50px;
+  margin-right: 40px;
+}
+
+.github-ico {
+  background-color: rgba(254, 254, 254, 0.5882352941);
+  border-radius: 120px;
+}
+
+.f-t {
+  font-size: 30px;
+  margin-left: 40px;
+}
+
+.cont {
+  margin-left: 40px;
+}
