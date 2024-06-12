@@ -351,3 +351,6 @@ header {
     height: auto;
     margin-bottom: 50px;
   }
+  .none{
+    opacity: 0.6;
+  }
