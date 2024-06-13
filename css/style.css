@@ -374,5 +374,5 @@ header {
     margin-bottom: 50px;
   }
   .none{
-    opacity: 0.6;
+    rotate: 90deg;
   }
